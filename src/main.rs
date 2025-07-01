@@ -143,7 +143,7 @@ fn read_compact_size(slice:&mut&[u8]) -> u64{
         slice.read(&mut buffer).unwrap();
         u64::from_le_bytes(buffer)
         }
-    }
+    }   
 }
 
 #[cfg(test)]
