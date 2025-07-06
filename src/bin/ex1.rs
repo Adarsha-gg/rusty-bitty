@@ -14,6 +14,8 @@ fn main(){
         }
     }
 
+    let median = s[2];
+    println!("Median is {}",median);
     println!("{:?}",s)
 
 
