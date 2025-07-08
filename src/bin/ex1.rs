@@ -1,5 +1,5 @@
 
-use std::{collections::HashMap, fs::exists, hash::Hash,};
+use std::{collections::HashMap};
 fn main(){
     let mut s = vec![3,4,1,2,10,1,66,0,0];
     let mut counter;
